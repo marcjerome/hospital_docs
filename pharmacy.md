@@ -160,6 +160,7 @@ After successful creation, you'll see:
 
 ![Delete Confirmation Search](pharmacy_assets/delete_confirm.png)
 
+![Delete Confirmation Search](pharmacy_assets/delete_confirm_2.png)
 ---
 
 ## Managing Stocks
