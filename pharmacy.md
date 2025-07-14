@@ -41,7 +41,6 @@ The Hospital Pharmacy Management System is a comprehensive digital solution desi
 3. Click "Login" button
 4. Upon successful authentication, you'll be redirected to the dashboard
 
-*[Screenshot: Login page]*
 ![Login Page](pharmacy_assets/login_page.png)
 
 ### Dashboard Overview
