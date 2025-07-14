@@ -877,8 +877,16 @@ Identify medicines with zero stock that need immediate restocking.
 - **Excel Export**: Data analysis and sharing
 - **CSV Export**: Data import to other systems
 
-![Export Options](pharmacy_assets/export_options.png)
+![Export Options 1](pharmacy_assets/export_options1.png)
 
+![Export Options 2](pharmacy_assets/export_options2.png)
+
+![Export Options 3](pharmacy_assets/export_options3.png)
+
+![Export Options 4](pharmacy_assets/export_options4.png)
+
+
+![Export Options 5](pharmacy_assets/export_options4.png)
 
 #### Pagination and Search
 - **Large Dataset Handling**: Efficient pagination
