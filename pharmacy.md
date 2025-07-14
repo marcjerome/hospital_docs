@@ -631,6 +631,7 @@ graph TD
 5. **Submit**: Send request to pharmacy
 
 ![Request Creation Form](pharmacy_assets/request_creation_form.png)
+![Request Creation Form](pharmacy_assets/request_creation_form2.png)
 
 #### Request Validation
 - **Positive Quantities**: All quantities must be greater than zero
@@ -646,6 +647,8 @@ Pharmacists can view all incoming requests:
 3. Requests sorted by date (newest first)
 4. Status indicators for each request
 
+
+![Pharmacy Worklist 0](pharmacy_assets/pharmacy_worklist_0.png)
 ![Pharmacy Worklist](pharmacy_assets/pharmacy_worklist.png)
 
 #### Request Details View
@@ -712,32 +715,6 @@ When stock is insufficient:
 - **Emergency Reserve**: Stock reserved for emergencies
 - **Alternative Available**: Suggest alternative medicine
 
-### Request Reversal
-
-#### When to Revert
-- Dispensing error occurred
-- Department returns unused medicines
-- Correction needed for inventory
-- Emergency stock reallocation
-
-#### Revert Process (Pharmacy)
-1. Open dispensed request details
-2. Click **"Revert Dispense"**
-3. Confirm reversal action
-4. System automatically:
-   - Returns medicines to stock
-   - Updates request status
-   - Creates audit trail
-
-
-![Revert Dispense Process](pharmacy_assets/revert_dispense_process.png)
-
-#### Revert Process (Department)
-Departments can also request reversals:
-1. Navigate to their request history
-2. Click **"Request Revert"** on dispensed request
-3. Provide reason for revert
-4. Submit to pharmacy for approval
 
 ### Request Status Management
 
@@ -756,7 +733,7 @@ Departments can also request reversals:
 - **Reverted**: Orange badge with undo icon
 
 
-![Status Indicators](pharmacy_assets/status_indicators.png)
+![Status Indicators](pharmacy_assets/status_indicators_2.png)
 
 ---
 
