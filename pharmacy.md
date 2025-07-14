@@ -42,7 +42,7 @@ The Hospital Pharmacy Management System is a comprehensive digital solution desi
 4. Upon successful authentication, you'll be redirected to the dashboard
 
 *[Screenshot: Login page]*
-![Login Page](assets/login_page.png)
+![Login Page](pharmacy_assets/login_page.png)
 
 ### Dashboard Overview
 The dashboard provides a quick overview of pharmacy operations:
@@ -51,7 +51,7 @@ The dashboard provides a quick overview of pharmacy operations:
 - **Expiring Soon**: Medicines approaching expiration
 - **Out of Stock**: Medicines needing restocking
 
-*[Screenshot: Dashboard overview]*
+![Dashboard Overview](pharmacy_assets/dashboard_overview.png)
 
 ### Navigation
 Access pharmacy features through the main navigation menu:
@@ -63,7 +63,7 @@ Access pharmacy features through the main navigation menu:
 - **Requests**: Handle departmental requisitions
 - **Reports**: Generate comprehensive reports
 
-*[Screenshot: Navigation menu]*
+![Navigation Menu](pharmacy_assets/navigation_menu.png)
 
 ---
 
@@ -90,7 +90,8 @@ Medicine management is the foundation of the pharmacy system. Each medicine is d
    - **Price**: Enter the current unit price
 4. Click **"Save"** to create the medicine
 
-*[Screenshot: Add medicine form]*
+
+![Add Medicine Form](pharmacy_assets/add_medicine_form.png)
 
 #### Validation Rules
 - All fields are required
@@ -118,7 +119,8 @@ After successful creation, you'll see:
 4. Modify the necessary fields
 5. Click **"Save"** to update
 
-*[Screenshot: Edit medicine form]*
+
+![Edit Medicine Form](pharmacy_assets/edit_medicine_form.png)
 
 #### Important Notes
 - **Price Changes**: New prices only affect future transactions
@@ -135,7 +137,7 @@ After successful creation, you'll see:
    - Dosage form
 3. Results filter automatically as you type
 
-*[Screenshot: Medicine search]*
+![Medicine Search](pharmacy_assets/medicine_search.png)
 
 #### Stock Level Filters
 - **All**: Show all medicines
@@ -157,7 +159,7 @@ After successful creation, you'll see:
 3. Confirm deletion in the popup
 4. Medicine is permanently removed
 
-*[Screenshot: Delete confirmation]*
+![Delete Confirmation Search](pharmacy_assets/delete_confirm.png)
 
 ---
 
@@ -204,7 +206,8 @@ graph TD
 7. Add **Notes** (optional but recommended)
 8. Click **"Save"**
 
-*[Screenshot: Add stock form]*
+
+![Add Stock Process](pharmacy_assets/add_stock_form_2.png)
 
 #### Batch Logic
 - **Existing Batch**: If batch with same expiry date exists, quantity is added
@@ -224,7 +227,9 @@ graph TD
 4. Add detailed notes about damage
 5. Save adjustment
 
-*[Screenshot: Damaged stock adjustment]*
+
+
+![Damaged Stock](pharmacy_assets/damaged_stock_adjustment.png)
 
 ##### 2. Lost Stock
 **When to Use**: Medicine lost or stolen
@@ -244,7 +249,8 @@ graph TD
 4. Add notes about disposal
 5. Save adjustment
 
-*[Screenshot: Expired stock adjustment]*
+![Expired Stock](pharmacy_assets/expired_stock_adjustment.png)
+
 
 ##### 4. Department Return
 **When to Use**: Department returns unused medicine
@@ -263,7 +269,7 @@ The system shows:
 - **Adjustment**: Quantity being added or removed
 - **New Stock**: Calculated quantity after adjustment
 
-*[Screenshot: Stock preview]*
+![Stock Preview](pharmacy_assets/stock_preview.png)
 
 #### Validation Checks
 - **Insufficient Stock**: Cannot reduce more than available
@@ -279,7 +285,7 @@ For each medicine, you can view:
 - **Expiry Dates**: When batches expire
 - **Last Updated**: Recent stock changes
 
-*[Screenshot: Stock levels view]*
+![Stock Levels](pharmacy_assets/stock_levels.png)
 
 #### Stock Status Indicators
 - **Green**: Good stock levels
@@ -327,7 +333,7 @@ graph TD
 3. Enter **Patient Encounter ID**
 4. Patient information auto-loads if valid
 
-*[Screenshot: Patient dispensing setup]*
+![Patient Dispense Setup](pharmacy_assets/patient_dispense_setup.png)
 
 #### Adding Medicines to Cart
 1. Use the medicine search to find required medicines
@@ -336,7 +342,8 @@ graph TD
 4. Click **"Add to Cart"**
 5. Medicine appears in cart with pricing
 
-*[Screenshot: Adding medicines to cart]*
+
+![Medicine Cart](pharmacy_assets/medicine_cart.png)
 
 #### Cart Management
 - **View Items**: See all added medicines
@@ -344,7 +351,7 @@ graph TD
 - **Remove Items**: Delete items from cart
 - **Price Calculation**: Real-time total calculation
 
-*[Screenshot: Cart management]*
+![Medicine Cart 2](pharmacy_assets/cart_management.png)
 
 ### Walk-in Customer Dispensing
 
@@ -361,7 +368,7 @@ graph TD
 5. Add medicines to cart (same as patient process)
 6. Review and process transaction
 
-*[Screenshot: Walk-in customer form]*
+![Walk In Customer](pharmacy_assets/walk_in_customer_form.png)
 
 #### Account Number Generation
 - Format: WI########
@@ -376,7 +383,7 @@ graph TD
 - **Total Price**: Unit price × Quantity
 - **Cart Total**: Sum of all item totals
 
-*[Screenshot: Cart pricing display]*
+![Cart Pricing](pharmacy_assets/cart_pricing.png)
 
 #### Currency Formatting
 - All prices displayed in Philippine Peso (₱)
@@ -395,7 +402,7 @@ graph TD
 - **Yellow**: Low stock warning
 - **Red**: Out of stock or insufficient
 
-*[Screenshot: Stock warnings]*
+![Stock Warnings](pharmacy_assets/stock_warnings.png)
 
 #### Validation Messages
 - **Insufficient Stock**: "Not enough stock available"
@@ -417,7 +424,9 @@ graph TD
 4. Stock levels updated automatically
 5. Transaction record created
 
-*[Screenshot: Transaction completion]*
+
+![Transaction Complete](pharmacy_assets/transaction_complete.png)
+
 
 #### Success Confirmation
 - Transaction ID generated
@@ -440,7 +449,9 @@ Transaction management provides comprehensive tracking of all dispensing activit
    - **Patient Transactions**: Hospital patient dispensing
    - **Walk-in Transactions**: Customer dispensing
 
-*[Screenshot: Transaction history tabs]*
+
+![Transaction History](pharmacy_assets/transaction_history.png)
+
 
 #### Transaction List Display
 Each transaction shows:
@@ -450,7 +461,9 @@ Each transaction shows:
 - **Total Amount**: Complete transaction cost
 - **Status**: Success or Reverted
 
-*[Screenshot: Transaction list]*
+
+![Transaction List](pharmacy_assets/transaction_list.png)
+
 
 ### Viewing Transaction Details
 
@@ -459,7 +472,9 @@ Each transaction shows:
 2. Complete transaction information displays
 3. All medicine details and pricing shown
 
-*[Screenshot: Transaction details button]*
+
+![View Transaction Details](pharmacy_assets/view_transaction_details.png)
+
 
 #### Transaction Information Display
 
@@ -473,7 +488,7 @@ Each transaction shows:
 - **Account Number**: Generated account number
 - **Birthday**: Date of birth for records
 
-*[Screenshot: Walk-in customer information]*
+![Walk in customer info](pharmacy_assets/walk_in_customer_info.png)
 
 ##### Patient Information
 - **Patient Name**: From hospital records
@@ -489,14 +504,14 @@ For each dispensed medicine:
 - **Unit Price**: Price per unit at time of dispensing
 - **Total Price**: Unit price × Quantity
 
-*[Screenshot: Medicine details in transaction]*
+![Medicine Details Transaction](pharmacy_assets/medicine_details_transaction.png)
 
 ##### Transaction Summary
 - **Total Items**: Number of different medicines
 - **Total Quantity**: Combined quantity of all medicines
 - **Transaction Total**: Complete cost in PHP (₱)
 
-*[Screenshot: Transaction summary]*
+![Transaction Summary](pharmacy_assets/transaction_summary.png)
 
 ### Transaction Pricing System
 
@@ -520,7 +535,7 @@ For each dispensed medicine:
 - **Success Badge**: Green background with checkmark icon
 - **Reverted Badge**: Red background with undo icon
 
-*[Screenshot: Status indicators]*
+![Status Indicators](pharmacy_assets/status_indicators.png)
 
 ### Transaction Reversal (Revert)
 
@@ -536,14 +551,14 @@ For each dispensed medicine:
 4. Enter your password
 5. Confirm reversal action
 
-*[Screenshot: Revert transaction process]*
+![Revert Process](pharmacy_assets/revert_process.png)
 
 #### Password Verification
 - **Security Measure**: Prevents unauthorized reversals
 - **User Authentication**: Confirms identity
 - **Audit Trail**: Records who performed reversal
 
-*[Screenshot: Password verification modal]*
+![Password Verification](pharmacy_assets/password_verification.png)
 
 #### Revert Impact
 - **Stock Restoration**: Medicines returned to inventory
@@ -566,7 +581,7 @@ For each dispensed medicine:
 - **Amount**: Highest to lowest
 - **Customer**: Alphabetical order
 
-*[Screenshot: Transaction search and filters]*
+![Transaction Search and Filters](pharmacy_assets/transaction_search_and_filters.png)
 
 ---
 
@@ -606,7 +621,7 @@ graph TD
 2. Department users see their department's requests
 3. Click **"Create New Request"** button
 
-*[Screenshot: Request creation button]*
+![Request Creation Button](pharmacy_assets/request_creation_button.png)
 
 #### Request Form
 1. **Requesting Department**: Auto-filled from user profile
@@ -615,7 +630,7 @@ graph TD
 4. **Notes**: Optional notes for pharmacy staff
 5. **Submit**: Send request to pharmacy
 
-*[Screenshot: Request creation form]*
+![Request Creation Form](pharmacy_assets/request_creation_form.png)
 
 #### Request Validation
 - **Positive Quantities**: All quantities must be greater than zero
@@ -631,7 +646,7 @@ Pharmacists can view all incoming requests:
 3. Requests sorted by date (newest first)
 4. Status indicators for each request
 
-*[Screenshot: Pharmacy worklist]*
+![Pharmacy Worklist](pharmacy_assets/pharmacy_worklist.png)
 
 #### Request Details View
 Click on any request to view:
@@ -641,7 +656,8 @@ Click on any request to view:
 - **Current Stock**: Available quantities for each medicine
 - **Status**: Current request status
 
-*[Screenshot: Request details view]*
+
+![Request Details](pharmacy_assets/request_details.png)
 
 ### Request Approval Process
 
@@ -656,7 +672,8 @@ For requests with sufficient stock:
    - Creates audit trail
    - Notifies department
 
-*[Screenshot: Approve and dispense process]*
+
+![Approve and Dispense Process](pharmacy_assets/approve_and_dispense.png)
 
 #### Partial Approval
 When stock is insufficient:
@@ -686,7 +703,8 @@ When stock is insufficient:
 4. Confirm decline action
 5. Department is notified with reason
 
-*[Screenshot: Decline request process]*
+
+![Decline Process](pharmacy_assets/decline_process.png)
 
 #### Decline Reasons
 - **Insufficient Stock**: Not enough inventory
@@ -711,7 +729,8 @@ When stock is insufficient:
    - Updates request status
    - Creates audit trail
 
-*[Screenshot: Revert dispense process]*
+
+![Revert Dispense Process](pharmacy_assets/revert_dispense_process.png)
 
 #### Revert Process (Department)
 Departments can also request reversals:
@@ -736,25 +755,8 @@ Departments can also request reversals:
 - **Cancelled**: Gray badge with cancel icon
 - **Reverted**: Orange badge with undo icon
 
-*[Screenshot: Status indicators]*
 
-### Request History and Tracking
-
-#### Department View
-Departments can view:
-- **All Requests**: Complete request history
-- **Status Tracking**: Current status of each request
-- **Approval Details**: When and who approved/declined
-- **Dispensed Items**: What was actually dispensed
-
-*[Screenshot: Department request history]*
-
-#### Pharmacy View
-Pharmacists can view:
-- **All Requests**: System-wide request history
-- **Department Filter**: Filter by requesting department
-- **Status Filter**: Filter by request status
-- **Action History**: Who performed what actions
+![Status Indicators](pharmacy_assets/status_indicators.png)
 
 ---
 
@@ -774,7 +776,7 @@ The pharmacy reporting system provides comprehensive analytics and insights for 
    - **Expired**: Medicines past expiry date
    - **Out of Stock**: Medicines needing restocking
 
-*[Screenshot: Reports navigation tabs]*
+![Reports Navigation](pharmacy_assets/reports_navigation.png)
 
 ### Medicines Inventory Report
 
@@ -788,7 +790,7 @@ Complete overview of all medicines in the system with current stock levels and p
 - **Total Value**: Stock quantity × Unit price
 - **Last Updated**: Recent activity timestamp
 
-*[Screenshot: Medicines inventory report]*
+![Medicine Inventory Report](pharmacy_assets/medicine_inventory_report.png)
 
 #### Display Format
 Medicine names shown as: **"Brand Name (Generic Name) - Dosage Form"**
@@ -816,7 +818,7 @@ Identify medicines that require immediate attention due to low stock levels.
 - **Threshold Level**: Minimum stock requirement
 - **Status Indicator**: Visual low stock warning
 
-*[Screenshot: Low stock report]*
+![Low Stock Report](pharmacy_assets/low_stock_report.png)
 
 #### Action Items
 - **Reorder**: Place new medicine orders
@@ -840,7 +842,7 @@ Track medicines approaching expiration to prevent waste and ensure patient safet
 - **Quantity**: Amount expiring
 - **Days Until Expiry**: Time remaining
 
-*[Screenshot: Expiring medicines report]*
+![Expiring Medicine Report](pharmacy_assets/expiring_medicine_report.png)
 
 #### Action Items
 - **Prioritize Usage**: Use expiring medicines first
@@ -859,7 +861,7 @@ Track medicines that have passed their expiry date for proper disposal and inven
 - **Quantity**: Amount expired
 - **Days Past Expiry**: Time since expiration
 
-*[Screenshot: Expired medicines report]*
+![Expired Medicine Report](pharmacy_assets/expired_medicine_report.png)
 
 #### Action Items
 - **Immediate Removal**: Remove from active inventory
@@ -878,7 +880,7 @@ Identify medicines with zero stock that need immediate restocking.
 - **Recent Usage**: Historical consumption data
 - **Reorder Priority**: Suggested priority level
 
-*[Screenshot: Out of stock report]*
+![Out of Stock Report](pharmacy_assets/out_of_stock_report.png)
 
 #### Action Items
 - **Emergency Orders**: Place urgent medicine orders
@@ -898,7 +900,8 @@ Identify medicines with zero stock that need immediate restocking.
 - **Excel Export**: Data analysis and sharing
 - **CSV Export**: Data import to other systems
 
-*[Screenshot: Export options]*
+![Export Options](pharmacy_assets/export_options.png)
+
 
 #### Pagination and Search
 - **Large Dataset Handling**: Efficient pagination
