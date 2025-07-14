@@ -204,7 +204,7 @@ graph TD
 5. Enter **Quantity** to add
 6. Enter **Expiry Date** (required)
 7. Add **Notes** (optional but recommended)
-8. Click **"Save"**
+8. Click **"Process Adjustment"**
 
 
 ![Add Stock Process](pharmacy_assets/add_stock_form_2.png)
