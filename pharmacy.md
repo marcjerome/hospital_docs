@@ -1113,17 +1113,6 @@ This user manual provides comprehensive guidance for using the Hospital Pharmacy
 - **Complete Audit Trail**: Full tracking of all activities
 - **Flexible Reporting**: Comprehensive analytics and insights
 
-### Continuous Improvement
-- **Feedback**: Provide feedback for system improvements
-- **Updates**: Stay informed about system updates
-- **Training**: Participate in ongoing training programs
-- **Best Practices**: Share and implement best practices
-
-### Support Resources
-- **Documentation**: This manual and online help
-- **Training**: Regular training sessions
-- **Technical Support**: IT department assistance
-- **User Community**: Peer support and knowledge sharing
 
 ---
 
