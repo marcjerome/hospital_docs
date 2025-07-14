@@ -225,7 +225,7 @@ graph TD
 2. Enter quantity to remove
 3. Enter expiry date of damaged batch
 4. Add detailed notes about damage
-5. Save adjustment
+5. Process adjustment
 
 
 
@@ -424,7 +424,7 @@ graph TD
 4. Stock levels updated automatically
 5. Transaction record created
 
-
+![Transaction Confirm](pharmacy_assets/transaction_confirm.png)
 ![Transaction Complete](pharmacy_assets/transaction_complete.png)
 
 
